@@ -54,10 +54,11 @@ background-color:;
 .button{
     height: 38px;
     width: 90px;
-    border:  none;
+   
     border-radius: 5px;
     background-color: rgb(233, 82, 82);
     color: white;
+    border: 2px solid black;
 }
 .nav2 i{
     font-size: 20px;
@@ -132,15 +133,7 @@ background-color:;
 
 
 
-.page1{
-    width: 100%;
-    height: 500px;
-     
-    display: flex;
-    flex-direction: ;
-    justify-content: center;
-    align-items: start;
-}
+ 
 .page-2{
     width: 600px;
     height: 400px;
@@ -210,7 +203,7 @@ color: white;}
     
     padding: o;
     width: 520px ;
-    height: 350px;
+    height: 100px;
     
     display: flex;
     flex-direction: column;
@@ -232,6 +225,7 @@ color: white;}
     position: relative;
     top: 14px;
     z-index: 1;
+    
     
 }
 .page-4{
@@ -307,18 +301,262 @@ color: white;}
 
 }   
 
+ .page1{
+    width: 100%;
+    height: 250px;
+   
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+align-items: center;
+line-height: 20px;
+background-color: rgb(247 247 247);
+ }
+ .page1 div{
+    height: 200px;
+    width: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+     color: #000;
+ }
+ .page1 div p{
+   
+    color: #878181;
+ }
+ .button3{
+    width:120px ;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(83, 83, 232);
+    border: none;
+    font-size: 18px;
+ }
+ .button3:hover{
+    background-color: rgb(250, 244, 244);
+    color: rgb(31, 29, 29);
+ }
+ .page2a img{
+    width: 500px ;
+    height: 300px;
+ }
+ .page2b{
+    padding: 00px 90px;
+ }
+ .page2c{ 
+     width: 100%;
+    height: 300px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+    
+    bottom:240px;
+    z-index: -1px;}
+ .page-2c{
+    width: 550px;
+    height: 300px;
+    border-top-right-radius: 170px;
+    border-bottom-right-radius: 170px;
+    background-color: rgb(83, 83, 232);
+ }
+
+ .page2{width: 1100px;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -40px 80px;
+    position: relative;
+    top: 14px;
+    z-index: 1;
+    background-color: rgb(247 247 247);
+     
+    
+}
+p{color: #878181;
+}
+.page3a{
+    width: 600px;
+    height: 300px;
+     
+     
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    color:  #383636;
+}
+.page3a h2{
+    font-size: 2rem;
+    line-height: 1;
+    font-family: arial;
+    color: #292828;
+}
+h2{
+    color: #292828;
+}
+
+.page3{width: 1100px;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -40px 80px;
+    position: relative;
+    top: 14px;
+    z-index: 1;
+    background-color: rgb(247 247 247);
+    
+}
  
 
 
 
 
+@media screen and (max-width:610px) and (min-width:0px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+   
+    .page2c{display: none;}
+    .page2{ flex-direction: column;  margin: -40px 50px;  height:700px; }
+     .page2a img{width: 470px; height: 300px;}
+     .page3{ flex-direction: column-reverse;  margin: -40px 50px;  height:700px; }
+    
+    .page2b h2{font-size: 20px;   }
+    .page2b p{ line-height: 30px;    }
+    .page2b{margin: 90px 0px;padding: 0px; }
+    .page3a{margin: 10px 0px; }
+    .page3b{ margin: 10px 0px; align-items: center;}
 
+}
 
+.page4{
+    width: 100%;
+    height: 200px;
+     
+    margin: -200px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+.page4 p{font-size: 20px;}
+.page4 h3{font-size: 30px;}
 
+.page5{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 50px 0px;
+    gap: 60px;
+}
+.page5 div{
+    
+     
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    line-height: 13px;
+    
+    -moz-box-shadow: 4px 4px 4px #a5a0a0; 
+    -webkit-box-shadow: 4px 4px 4px #a09d9d; 
+    box-shadow: 1px 2px 4px #afaeae;
+}
+.page5 div img{
+    width: 100px;
+    height: 100px;
+}
+ .a5{
+    width: 290px;
+    height: 250px;
+ }
+ .b5{
+    width: 290px;
+    height: 300px;
+ }
+ .c5{
+    width: 290px;
+    height: 350px;
+ }
+ .button4{
+    width:270px ;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(83, 83, 232);
+    border: none;
+    font-size: 18px;
+ }
+ .button4:hover{
+    background-color: rgb(250, 244, 244);
+    color: rgb(31, 29, 29);
+ }
+ .a-5{
+    width: 290px;
+    height: 55px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
 
-  
+ }
 
-
- 
- 
+ @media screen and (max-width:610px) and (min-width:0px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      body {
+        position: relative
+      }
+    .page5{
+        flex-direction: column; padding: 250px 10px; gap: 70px;
+         
+    }
+    .page4{ margin: 20px; line-height:20px ;  align-items: start; padding: 20px;}
+    .page5 div{
+        width: 570px;  height: 300px;
+    }
+    .a-5{width: 570px; height: 55px;}
+    .button4{width: 550px;}
+     
+    }
+    .pa{
+        font-size: 18px;
+    }
+    .page6{
+        width: 100%;
+        height: 250px;
+       
+        position: relative;
+        bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    background-color: rgb(247 247 247);
+     }
  
